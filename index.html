@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เว็บแอปพลิเคชันของฉัน</title>
+    <!-- คุณสามารถเพิ่ม CSS ที่นี่ได้ ถ้ามี -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- นี่คือ Element ที่ JavaScript จะใช้ inject เนื้อหาเข้าไป -->
+    <div id="app-root">
+        <!-- อาจจะใส่ข้อความ "กำลังโหลด..." เพื่อให้ผู้ใช้รู้ว่ากำลังทำงานอยู่ -->
+        <p>กำลังโหลดแอปพลิเคชัน...</p>
+    </div>
+
+    <!-- ไฟล์ app.js ของคุณจะถูกโหลดที่นี่ -->
+    <!-- 'defer' หมายความว่า app.js จะถูกโหลดและรันหลังจาก HTML ทั้งหมดถูก parse เสร็จแล้ว -->
+    <script src="app.js" defer></script>
+</body>
+</html>
